@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#counter-container {
+    width: fit-content;
+    height: fit-content;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+#counter {
+    font-family: "Fraps";
+    font-size: 144pt;
+    margin-bottom: -.20em;
+}
+
+footer{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 32pt;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color:yellowgreen;
+}

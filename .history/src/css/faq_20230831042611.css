@@ -1,0 +1,16 @@
+goback{
+    font-weight: 900;
+    -webkit-text-stroke: 2px #000;
+}
+
+goback:link,
+goback:visited,
+goback:hover,
+goback:active{
+    text-decoration: none;
+    color: yellow;
+}
+goback:hover{
+    color:#DD0;
+}
+

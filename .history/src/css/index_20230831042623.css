@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#counter-container {
+    width: fit-content;
+    height: fit-content;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+#counter {
+    font-family: "Fraps";
+    font-size: 144pt;
+    margin-bottom: -.20em;
+}
+
+footer{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 32pt;
+}
+
+footer a{
+    font-weight: 900;
+    -webkit-text-stroke: 2px #000;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active{
+    text-decoration: none;
+    color: yellow;
+}
+footer a:hover{
+    color:#DD0;
+}
+

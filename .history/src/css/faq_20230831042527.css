@@ -1,0 +1,15 @@
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color:#DD0;
+}
+
+a{
+    font-weight: 900;
+    -webkit-text-stroke: 2px #000;
+}
